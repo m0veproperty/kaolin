@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/_next/:path*", "destination": "https://sedlecky-kaolin.com/_next/:path*" },
+    { "source": "/img/:path*", "destination": "https://sedlecky-kaolin.com/img/:path*" },
+    { "source": "/fonts/:path*", "destination": "https://sedlecky-kaolin.com/fonts/:path*" },
+    { "source": "/_external/cms.kaolin.yolkone.com/:path*", "destination": "https://cms.kaolin.yolkone.com/:path*" },
+    { "source": "/_external/www.recaptcha.net/:path*", "destination": "https://www.recaptcha.net/:path*" },
+    { "source": "/favicon.ico", "destination": "https://sedlecky-kaolin.com/favicon.ico" },
+    { "source": "/favicon-16x16.png", "destination": "https://sedlecky-kaolin.com/favicon-16x16.png" },
+    { "source": "/favicon-32x32.png", "destination": "https://sedlecky-kaolin.com/favicon-32x32.png" },
+    { "source": "/apple-touch-icon.png", "destination": "https://sedlecky-kaolin.com/apple-touch-icon.png" },
+    { "source": "/site.webmanifest", "destination": "https://sedlecky-kaolin.com/site.webmanifest" },
+    { "source": "/safari-pinned-tab.svg", "destination": "https://sedlecky-kaolin.com/safari-pinned-tab.svg" },
+    { "source": "/en/:path*", "destination": "https://sedlecky-kaolin.com/en/:path*" },
+    { "source": "/about-company", "destination": "https://sedlecky-kaolin.com/about-company" },
+    { "source": "/contacts", "destination": "https://sedlecky-kaolin.com/contacts" },
+    { "source": "/landscape-reclamation", "destination": "https://sedlecky-kaolin.com/landscape-reclamation" },
+    { "source": "/news", "destination": "https://sedlecky-kaolin.com/news" },
+    { "source": "/products-and-services", "destination": "https://sedlecky-kaolin.com/products-and-services" }
+  ]
+}
